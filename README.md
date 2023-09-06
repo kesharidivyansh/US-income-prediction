@@ -11,8 +11,6 @@ This repository contains a machine learning project aimed at building regression
 - [Algorithms Used](#algorithms-used)
 - [Getting Started](#getting-started)
 - [Results](#results)
-- [Contributions](#contributions)
-- [License](#license)
 
 ## Project Overview
 In this project, we explore supervised machine learning models for regression to predict the average household income. The goal is to develop accurate predictive models that can provide insights into factors influencing household income.
@@ -32,9 +30,13 @@ We used the following machine learning algorithms for regression:
 - Linear Regression Model
 These algorithms were chosen for their effectiveness in handling complex regression problems and their ability to capture intricate relationships within the data.
 
-- XGBoost provided the best results for the model.
 
 ## Getting Started
 To reproduce or build upon this project, follow these steps:
 
 1. Clone the repository to your local machine:
+
+## Results
+Preliminary Results were found using the Lazypredict library.
+The XGBoost regressor was the best model after hyper parameter tuning as it provided the highest R2 Score, and Least MSE.
+
